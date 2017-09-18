@@ -1,5 +1,5 @@
 // increment likes
-  export var increment = index => {
+  export var increment = (index) => {
     return {
       type: 'INCREMENT_LIKES',
       index
@@ -15,10 +15,10 @@
     }
   }
 //remove comments
-export var removeComment = (postId, i) => {
+export var removeComment = (postId, index) => {
   return{
     type: 'REMOVE_COMMENT',
-    i,
+    index,
     postId
   }
 }
