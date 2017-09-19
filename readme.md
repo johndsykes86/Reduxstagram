@@ -1,6 +1,6 @@
-# Reduxstgram
+# Reduxstagram
 
-This repo is my version of Reduxstgram, the project that goes along with Wes Bos' Learn Redux [series](https://learnredux.com/). The original repo with project folders is [here](https://github.com/wesbos/Learn-Redux-Starter-Files)
+This repo is my version of Reduxstgram, the project that goes along with Wes Bos' Learn Redux [series](https://learnredux.com/). The original repo with project folders is [here](https://github.com/wesbos/Learn-Redux-Starter-Files1)
 
 ## Getting Started
 
