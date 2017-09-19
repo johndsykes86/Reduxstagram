@@ -24,3 +24,14 @@ export var removeComment = (postId, index) => {
     postId
   }
 }
+
+export var editComment = (postId, author, comment, index) => {
+  console.log("Dispatching edit comment", postId, author, comment, index)
+  return {
+    type: 'EDIT_COMMENT',
+    postId,
+    author,
+    comment,
+    index
+  }
+}

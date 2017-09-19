@@ -9,7 +9,8 @@ var postComments = (state = [], action)=>{
           user: action.author,
           text: action.comment
 
-        }];
+        }]
+
     case 'REMOVE_COMMENT':
       console.log("removing comment", action.index)
       return [
@@ -17,6 +18,10 @@ var postComments = (state = [], action)=>{
         ...state.slice(0, action.index),
         //after the deleted comment
         ...state.slice(action.index + 1)
+      ];
+    case 'EDIT_COMMENT':
+      return[
+
       ]
     default:
       return state;
